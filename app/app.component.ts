@@ -11,7 +11,7 @@ import {FooterComponent} from './common/footer.component';
 @Component({
     selector : 'my-app',
     template : ``,
-    directives : [RouterOutlet]
+    directives : [RouterOutlet, RouteConfig, LoginComponent, RegistrationComponent, AlbumComponent, AlbumsComponent, HeaderComponent, WelcomeComponent, FooterComponent]
 })
 export class AppComponent {
 
