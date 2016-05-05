@@ -10,7 +10,13 @@ import {FooterComponent} from './common/footer.component';
 
 @Component({
     selector : 'my-app',
-    template : ``,
+    template : `
+        <header-component></header-component>
+        <div class="container">
+            <router-outlet></router-outlet>
+        </div>
+        <footer-component></footer-component>
+    `,
     directives : [RouterOutlet, RouteConfig, LoginComponent, RegistrationComponent, AlbumComponent, AlbumsComponent, HeaderComponent, WelcomeComponent, FooterComponent]
 })
 @RouteConfig([
