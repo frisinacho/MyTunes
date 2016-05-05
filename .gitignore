@@ -49,3 +49,6 @@ fabric.properties
 
 # node_modules are created after instalation
 /node_modules
+
+# JS are created after `npm start`
+js/
