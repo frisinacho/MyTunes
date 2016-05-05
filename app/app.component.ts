@@ -13,6 +13,13 @@ import {FooterComponent} from './common/footer.component';
     template : ``,
     directives : [RouterOutlet, RouteConfig, LoginComponent, RegistrationComponent, AlbumComponent, AlbumsComponent, HeaderComponent, WelcomeComponent, FooterComponent]
 })
+@RouteConfig([
+    { path : '/', name : 'Home', component : WelcomeComponent, useAsDefault : true},
+    { path : '/albums', name : 'Albums', component : AlbumsComponent},
+    { path : '/album', name : 'Album', component: AlbumComponent},
+    { path : '/login', name : 'Login', component: LoginComponent},
+    { path : '/registration', name : 'Registration', component: RegistrationComponent}
+])
 export class AppComponent {
 
     constructor() {}
