@@ -2,7 +2,11 @@ import {Component} from 'angular2/core';
 
 @Component({
     selector : 'header-component',
-    template : ``
+    template : `
+        <div>
+            Header
+        </div>
+    `
 })
 export class HeaderComponent {
 

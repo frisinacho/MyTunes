@@ -2,7 +2,11 @@ import {Component} from 'angular2/core';
 
 @Component({
     selector : 'welcome-component',
-    template : ``
+    template : `
+        <div>
+            Welcome
+        </div>
+    `
 })
 export class WelcomeComponent {
 

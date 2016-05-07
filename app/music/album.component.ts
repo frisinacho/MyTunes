@@ -2,7 +2,11 @@ import {Component} from 'angular2/core';
 
 @Component({
     selector : 'album-component',
-    template : ``
+    template : `
+        <div>
+            Album
+        </div>
+    `
 })
 export class AlbumComponent {
 
