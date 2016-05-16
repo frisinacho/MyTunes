@@ -1,0 +1,3 @@
+interface ISearchQuery {
+    query : string;
+}
