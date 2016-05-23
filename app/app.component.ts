@@ -17,7 +17,7 @@ import {FooterComponent} from './common/footer.component';
         </div>
         <footer-component></footer-component>
     `,
-    directives : [RouterOutlet, RouteConfig, LoginComponent, RegistrationComponent, AlbumComponent, AlbumsComponent, HeaderComponent, WelcomeComponent, FooterComponent]
+    directives : [RouterOutlet, LoginComponent, RegistrationComponent, AlbumsComponent, HeaderComponent, WelcomeComponent, FooterComponent]
 })
 @RouteConfig([
     { path : '/', name : 'Home', component : WelcomeComponent, useAsDefault : true},
